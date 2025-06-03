@@ -40,9 +40,10 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "jest": "^27.5.1",
-    "msw": "^1.3.2"
+  "jest": {
+    "coveragePathIgnorePatterns" : [
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts"
+    ]
   }
 }
